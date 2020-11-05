@@ -13,3 +13,10 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+x,y,isTrue,name = (1,34.66, True, "jon")
+print (x,y,isTrue,name)
+print (type(x))
+y = int(y)
+z = float(y)
+print (type(y),y)
+print (type(z),z)
